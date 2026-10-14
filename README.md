@@ -11,27 +11,14 @@ A responsive Food Ordering System frontend built with React and Vite. This proje
 Use the following credentials to test the application.
 
 **Admin Sign In**
+
 - Email: `admin2@gmail.com`
 - Password: `admin123`
 
 **Test User Sign In**
+
 - Email: `sara@gmail.com`
 - Password: `sara123`
-
-## About the Project
-
-This Food Ordering System is a full-stack web application developed using React for the frontend and Django REST Framework for the backend. Both applications are maintained in separate repositories and integrated through API communication.
-
-### Project Repositories
-
-- **Frontend Repository:** [Food-Ordering-System](https://github.com/Ishratalib/Food-Ordering-System)
-- **Backend Repository:** [Backend-of-Food-ordering](https://github.com/Ishratalib/Backend-of-Food-ordering)
-
-To run the complete project locally, go through the README files in both repositories. They provide the setup instructions, dependencies, environment configuration, and commands required to run the frontend and backend on your local machine.
-
-## Project Structure
-
-[View Complete Frontend Project Structure](https://github.com/Ishratalib/Food-Ordering-System/blob/main/frontend-structure.txt)
 
 ## Technologies Used
 
@@ -44,6 +31,21 @@ To run the complete project locally, go through the README files in both reposit
 - Redux Toolkit
 - React Redux
 - React Icons
+
+## About the Project
+
+This Food Ordering System is a full-stack web application developed using React for the frontend and Django REST Framework for the backend. Both applications are maintained in separate repositories and integrated through API communication.
+
+### Project Repositories
+
+- **Frontend Repository:** [Food-Ordering-System](https://github.com/Ishratalib/Food-Ordering-System)
+- **Backend Repository:** [Backend-of-Food-ordering](https://github.com/Ishratalib/Backend-of-Food-ordering)
+
+To run the complete project locally, refer to the README files in both repositories. They provide the setup instructions, dependencies, environment configuration, and commands required to run the frontend and backend on your local machine.
+
+## Project Structure
+
+[View Complete Frontend Project Structure](https://github.com/Ishratalib/Food-Ordering-System/blob/main/frontend-structure.txt)
 
 ## Features
 
@@ -58,7 +60,7 @@ To run the complete project locally, go through the README files in both reposit
 
 The frontend communicates with the Django REST Framework backend.
 
-**Backend URL:** [https://ishratalib.pythonanywhere.com/](https://ishratalib.pythonanywhere.com/)
+**Backend URL:** https://ishratalib.pythonanywhere.com/
 
 **Backend Repository:** [Backend-of-Food-ordering](https://github.com/Ishratalib/Backend-of-Food-ordering)
 
@@ -79,7 +81,7 @@ npm install
 
 ### 3. Configure Environment Variables
 
-Create a `.env` file in the project root:
+Create a `.env` file in the project root and add:
 
 ```env
 VITE_API_BASE_URL=https://ishratalib.pythonanywhere.com
