@@ -1,16 +1,107 @@
-# React + Vite
+# Food Ordering System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Food Ordering System frontend built with React and Vite. This project integrates with a Django REST Framework backend to provide a complete food-ordering experience.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Frontend:** [Food Ordering System](https://food-ordering-system-123-8ah1kexf0-ishrat-talib.vercel.app/)
 
-## React Compiler
+### Demo Login Credentials
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Use the following credentials to test the application.
 
-## Expanding the ESLint configuration
+**Admin Sign In**
+- Email: `admin2@gmail.com`
+- Password: `admin123`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Test User Sign In**
+- Email: `sara@gmail.com`
+- Password: `sara123`
+
+## About the Project
+
+This Food Ordering System is a full-stack web application developed using React for the frontend and Django REST Framework for the backend. Both applications are maintained in separate repositories and integrated through API communication.
+
+### Project Repositories
+
+- **Frontend Repository:** [Food-Ordering-System](https://github.com/Ishratalib/Food-Ordering-System)
+- **Backend Repository:** [Backend-of-Food-ordering](https://github.com/Ishratalib/Backend-of-Food-ordering)
+
+To run the complete project locally, go through the README files in both repositories. They provide the setup instructions, dependencies, environment configuration, and commands required to run the frontend and backend on your local machine.
+
+## Project Structure
+
+[View Complete Frontend Project Structure](https://github.com/Ishratalib/Food-Ordering-System/blob/main/frontend-structure.txt)
+
+## Technologies Used
+
+- React
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+- React Router
+- Redux Toolkit
+- React Redux
+- React Icons
+
+## Features
+
+- Restaurant and food browsing interfaces
+- Component-based React architecture
+- Backend API integration
+- State management using Redux Toolkit
+- Client-side navigation with React Router
+- User authentication interface
+
+## Backend Integration
+
+The frontend communicates with the Django REST Framework backend.
+
+**Backend URL:** [https://ishratalib.pythonanywhere.com/](https://ishratalib.pythonanywhere.com/)
+
+**Backend Repository:** [Backend-of-Food-ordering](https://github.com/Ishratalib/Backend-of-Food-ordering)
+
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Ishratalib/Food-Ordering-System.git
+cd Food-Ordering-System
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+VITE_API_BASE_URL=https://ishratalib.pythonanywhere.com
+```
+
+### 4. Run the Development Server
+
+```bash
+npm run dev
+```
+
+### 5. Build for Production
+
+```bash
+npm run build
+```
+
+## Deployment
+
+- **Frontend:** Vercel
+- **Backend:** PythonAnywhere
+
+## Author
+
+**Ishrat Talib**
