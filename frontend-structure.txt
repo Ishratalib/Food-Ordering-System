@@ -1,0 +1,234 @@
+﻿Frontend Project Structure
++---public
+|   +---favicon.svg
+|   \---icons.svg
++---src
+|   +---api
+|   |   +---api.js
+|   |   \---endpoints.js
+|   +---assets
+|   |   +---icons
+|   |   |   +---arrow.png
+|   |   |   +---Facebook.png
+|   |   |   +---ForwardButton.png
+|   |   |   +---gift.png
+|   |   |   +---Instagram.png
+|   |   |   +---Location.png
+|   |   |   +---locationDark.png
+|   |   |   +---Male User.png
+|   |   |   +---maleuserDark.png
+|   |   |   +---profile.png
+|   |   |   +---restaurantMenuIcon.png
+|   |   |   +---Search.png
+|   |   |   +---ShoppingBasket.png
+|   |   |   +---shoppingCart.png
+|   |   |   +---Snapchat.png
+|   |   |   \---TikTok.png
+|   |   +---images
+|   |   |   +---AppStore.png
+|   |   |   +---BackArrow.png
+|   |   |   +---background-burger.png
+|   |   |   +---Burger King.png
+|   |   |   +---burger1.png
+|   |   |   +---burger2.png
+|   |   |   +---burger3.png
+|   |   |   +---burger4.png
+|   |   |   +---burger5.png
+|   |   |   +---burger6.png
+|   |   |   +---category-breakfast.png
+|   |   |   +---category-burgers.png
+|   |   |   +---category-ordinary.png
+|   |   |   +---category-pasta.png
+|   |   |   +---category-pizza.png
+|   |   |   +---category-salads.png
+|   |   |   +---clock.png
+|   |   |   +---deal1.png
+|   |   |   +---deal2.png
+|   |   |   +---delivery-icon.png
+|   |   |   +---dessert.png
+|   |   |   +---discount.png
+|   |   |   +---discountPercentageBg.png
+|   |   |   +---drink1.png
+|   |   |   +---drink2.png
+|   |   |   +---drink3.png
+|   |   |   +---drink4.png
+|   |   |   +---drink5.png
+|   |   |   +---drink6.png
+|   |   |   +---Ellipse.png
+|   |   |   +---firstOrderDis.png
+|   |   |   +---ForwardArrow.png
+|   |   |   +---Friends.png
+|   |   |   +---fries1.png
+|   |   |   +---fries2.png
+|   |   |   +---fries3.png
+|   |   |   +---fries4.png
+|   |   |   +---fries5.png
+|   |   |   +---fries6.png
+|   |   |   +---getOrder.png
+|   |   |   +---happyMeal.png
+|   |   |   +---hero.png
+|   |   |   +---heroDarkTheme.png
+|   |   |   +---heroRight.png
+|   |   |   +---heroRightBg.png
+|   |   |   +---hotDrink.png
+|   |   |   +---iceCreamOffer.png
+|   |   |   +---id-verified.png
+|   |   |   +---KFC.png
+|   |   |   +---McDonald's.png
+|   |   |   +---mini-order.png
+|   |   |   +---Next page.png
+|   |   |   +---notification1.png
+|   |   |   +---notification2.png
+|   |   |   +---operational-times.png
+|   |   |   +---orbit.png
+|   |   |   +---Papa Johns.png
+|   |   |   +---partnerWithUs.png
+|   |   |   +---pizza.png
+|   |   |   +---placeOrder.png
+|   |   |   +---PlayStore.png
+|   |   |   +---Plus.png
+|   |   |   +---plusBgImg.png
+|   |   |   +---previous-location.png
+|   |   |   +---profileimg.png
+|   |   |   +---rating.png
+|   |   |   +---restaurantDarkTheme.png
+|   |   |   +---restaurant-mob-img.png
+|   |   |   +---resturant.png
+|   |   |   +---rideWithUs.png
+|   |   |   +---salad.png
+|   |   |   +---sanwich1.png
+|   |   |   +---sanwich2.jpg
+|   |   |   +---sauce.png
+|   |   |   +---seafood1.png
+|   |   |   +---seafood2.jpg
+|   |   |   +---Shaurma.png
+|   |   |   +---snacks.jpg
+|   |   |   +---snacks1.png
+|   |   |   +---snacks3.png
+|   |   |   +---snacks4.png
+|   |   |   +---snacks5.png
+|   |   |   +---snacks6.png
+|   |   |   +---Star.png
+|   |   |   +---Texas Chicken.png
+|   |   |   +---tracking.png
+|   |   |   +---trackOrder.png
+|   |   |   \---veganDis.png
+|   |   +---logos
+|   |   |   +---LOGO 1.png
+|   |   |   +---Logo.png
+|   |   |   +---logoWhite.png
+|   |   |   \---sidebarimg.png
+|   |   +---notFound
+|   |   |   \---Lonely 404.lottie
+|   |   +---hero.png
+|   |   +---react.svg
+|   |   \---vite.svg
+|   +---components
+|   |   +---AdminAnalytics
+|   |   |   +---PopularDeals.jsx
+|   |   |   +---PopularItems.jsx
+|   |   |   +---RevenueByRestaurant.jsx
+|   |   |   +---RevenueOverTime.jsx
+|   |   |   \---SummaryCards.jsx
+|   |   +---adminDashboard
+|   |   |   +---OrdersByStatusChart.jsx
+|   |   |   +---RecentOrdersTable.jsx
+|   |   |   +---RevenueOverTimeChart.jsx
+|   |   |   \---StatsCards.jsx
+|   |   +---AdminMenu
+|   |   |   \---MenuDetailModal.jsx
+|   |   +---adminOrders
+|   |   |   +---OrderDetailModal.jsx
+|   |   |   +---orderSearch.jsx
+|   |   |   +---OrdersTable.jsx
+|   |   |   \---OrderStatusFilter.jsx
+|   |   +---common
+|   |   |   +---AuthLayout.jsx
+|   |   |   \---Toast.jsx
+|   |   +---deal
+|   |   |   +---DealGallery.jsx
+|   |   |   +---DealInfo.jsx
+|   |   |   +---RestaurantInfo.jsx
+|   |   |   +---SimilarDeals.jsx
+|   |   |   \---WhatsIncluded.jsx
+|   |   +---home
+|   |   |   +---AboutUs.jsx
+|   |   |   +---Benefits.jsx
+|   |   |   +---CategoryCard.jsx
+|   |   |   +---DealCard.jsx
+|   |   |   +---ExclusiveDealCard.jsx
+|   |   |   +---Hero.jsx
+|   |   |   +---PersonalisedSection.jsx
+|   |   |   +---PopularCategories.jsx
+|   |   |   +---PopularRestaurants.jsx
+|   |   |   +---RestaurantCard.jsx
+|   |   |   \---StatsSection.jsx
+|   |   +---layout
+|   |   |   +---AdminSidebar.jsx.jsx
+|   |   |   +---Footer.jsx
+|   |   |   +---Navbar.jsx
+|   |   |   +---Sidebar.jsx
+|   |   |   \---Topbar.jsx
+|   |   \---restaurant
+|   |       +---CustomerReviews.jsx
+|   |       +---LocationMap.jsx
+|   |       +---MenuItems.jsx
+|   |       +---RestaurantBanner.jsx
+|   |       +---RestaurantInfoSection.jsx
+|   |       \---ReviewCard.jsx
+|   +---context
+|   |   \---ThemeContext.jsx
+|   +---hooks
+|   |   +---useAuth.js
+|   |   +---useDebounce.js
+|   |   \---useToast.js
+|   +---pages
+|   |   +---admin
+|   |   |   +---Analytics.jsx
+|   |   |   +---DashboardHome.jsx
+|   |   |   +---ManageMenu.jsx
+|   |   |   \---ManageOrders.jsx
+|   |   +---customer
+|   |   |   +---Cart.jsx
+|   |   |   +---Checkout.jsx
+|   |   |   +---DealDetail.jsx
+|   |   |   +---Home.jsx
+|   |   |   +---Login.jsx
+|   |   |   +---MenuItemDetail.jsx
+|   |   |   +---Offers.jsx
+|   |   |   +---OrderDetails.jsx
+|   |   |   +---OrderHistory.jsx
+|   |   |   +---Orders.jsx
+|   |   |   +---OrderTracking.jsx
+|   |   |   +---Profile.jsx
+|   |   |   +---RestaurantDetail.jsx
+|   |   |   \---Signup.jsx
+|   |   \---NotFound.jsx
+|   +---redux
+|   |   +---slices
+|   |   |   +---adminAnalyticsSlice.js
+|   |   |   +---authSlice.js
+|   |   |   +---cartSlice.js
+|   |   |   +---dealSlice.js
+|   |   |   +---menuAdminSlice.js
+|   |   |   +---menuSlice.js
+|   |   |   +---orderAdminSlice.js
+|   |   |   +---orderSlice.js
+|   |   |   \---restaurantSlice.js
+|   |   \---store.js
+|   +---routes
+|   |   +---AdminRoute.jsx
+|   |   +---AppRoutes.jsx
+|   |   \---ProtectedRoute.jsx
+|   +---App.css
+|   +---App.jsx
+|   +---index.css
+|   \---main.jsx
++---.gitignore
++---eslint.config.js
++---index.html
++---package.json
++---package-lock.json
++---README.md
++---vercel.json
+\---vite.config.js
